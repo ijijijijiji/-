@@ -12,7 +12,7 @@
 
  > 코드 
 
-![image](https://github.com/ijijijijiji/web/assets/129851513/88378640-54e4-441f-925d-a6785770f528)  ![image](https://github.com/ijijijijiji/web/assets/129851513/b5dd6bd6-b326-429b-93e3-4a77fdc55f37)
+![image](https://github.com/ijijijijiji/web/assets/129851513/c804bd16-f553-42bd-8ba8-655de79f4c44)  ![image](https://github.com/ijijijijiji/web/assets/129851513/b5dd6bd6-b326-429b-93e3-4a77fdc55f37)
 
 
 ## section
