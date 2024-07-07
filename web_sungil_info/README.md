@@ -12,7 +12,7 @@
 
  > 코드 
 
-![image](https://github.com/ijijijijiji/web_sungil_info/assets/129851513/88378640-54e4-441f-925d-a6785770f528)  ![image](https://github.com/ijijijijiji/web_sungil_info/assets/129851513/b5dd6bd6-b326-429b-93e3-4a77fdc55f37)
+![image](https://github.com/ijijijijiji/web/assets/129851513/88378640-54e4-441f-925d-a6785770f528)  ![image](https://github.com/ijijijijiji/web/assets/129851513/b5dd6bd6-b326-429b-93e3-4a77fdc55f37)
 
 
 ## section
@@ -27,7 +27,7 @@
 
 > 코드
 
-![image](https://github.com/ijijijijiji/web_sungil_info/assets/129851513/0c31daf4-7c17-49c8-966b-fdc5fd13ae05)
+![image](https://github.com/ijijijijiji/web/assets/129851513/0c31daf4-7c17-49c8-966b-fdc5fd13ae05)
 
-![image](https://github.com/ijijijijiji/web_sungil_info/assets/129851513/2492e2ed-f8ef-4c81-8146-f48d1eab8440)
+![image](https://github.com/ijijijijiji/web/assets/129851513/2492e2ed-f8ef-4c81-8146-f48d1eab8440)
 
