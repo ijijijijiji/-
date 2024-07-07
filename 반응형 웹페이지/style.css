@@ -1,0 +1,160 @@
+@charset "UTF-8";
+
+* {
+	padding: 0;
+	margin: 0;	
+}
+
+#page {
+	width: 995px;
+	margin: 0 auto;
+}
+
+header {
+	width: 995px;
+	height: 120px;
+	margin-top: 10px;
+	border: 2px solid #ccc;
+}
+
+#logo {
+	float: left;
+}
+
+li {
+	list-style-type: none;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+#top {
+	float: right;
+	margin: 20px 20px 0 0;
+}
+
+.main-menu {
+	width: 600px;
+	height: 40px;
+	margin-top: 10px;
+	background-color: #8572EE	;
+	line-height: 40px;
+	color: white;
+}
+
+.main-menu li {
+	float: left;
+	width: 150px;
+	text-align: center;
+}
+
+.main-menu li:hover {
+	color: blueviolet;
+	background-color:#50D6FF;
+}
+
+.sub {
+	position: absolute;
+	width: 150px;
+	background-color: #C8C8FF;
+	display: none;
+	z-index: 1; /* 우선순위 (0보다)낮음 */
+}
+
+.sub li:hover {
+	background-color: #78EAFF;
+}
+
+.clear {
+	clear: both;
+}
+
+section {
+	width: 995px;
+	height: 240px;
+	float: left;
+	margin-top: 10px;
+	align-content: center;
+}
+
+.imgs {
+	width: 995px;
+	height: 220px;
+	position: absolute;
+	overflow: hidden;
+}
+
+.imgs img {
+	position: absolute;
+	transition: all 2s;
+}
+
+.welcome {
+	position: relative;
+	text-align: center;
+	margin: -35px auto !important; /* !important: 우선순위 낮춤(무시 가능) ==> 스타일 충돌이 일어났을때 배제됨 */
+	width: 750px;
+	height: 50px;
+	line-height: 50px;
+	background-color: #8572EE;
+	border-radius: 30px;
+	left: auto;
+	top: 50%;
+}
+
+span {
+	color: white;
+}
+
+.notice {
+	width: 995px;
+	margin-top: 10px;
+	float: left;
+	position: relative;
+	top: 120px;
+}
+
+h2 {
+	text-align: center;
+}
+
+.table {
+	width: 995px;
+	border: 1px solid #aaaaaa;
+	text-align: center;
+	border-collapse: collapse;
+	font-size: 1rem;
+	color: white;
+	background-color: #C8C8FF;
+}
+
+th {
+	background-color: #8572EE;
+}
+
+th, td {
+	 border: 1px solid #aaaaaa;
+}
+
+.table > tr > th {
+	padding: 5px;
+}
+
+.table > tr > td {
+	padding: 5px;
+	text-align: center;
+}
+
+
+footer {
+	width: 995px;
+	height: 130px;
+	border-top: solid 1px #ccc;
+	margin-top: 160px;
+}
+
+#address {
+	margin: 30px 0 0 50px;
+}

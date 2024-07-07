@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width:device-width, initial-scale=1.0"> <!-- 모바일 디바이스의 화면 크기에 맞춰 로드 -->
+	<meta http-equiv="X-UA-Compotible" content="ie=edge"> <!-- 브라우저 표준을 최신으로 설정 -->
+	<title>Join</title>
+	<style>
+		body {
+			font-size: 14px;
+			font-family: 돋움''
+		}
+		table {
+			width: 800px;
+			margin: 0 auto;
+		}
+		
+		table, tr, th, td {
+			border: 1px solid #333;
+			border-spacing: 0;
+		}
+		
+		strong, span { color: red; }
+		
+		caption, th { text-align: right; }
+		
+		th, td { padding: 10px 15px; }
+		
+		#btn { float: right; }
+	</style>
+</head>
+<body>
+	<form action="#" method="post" name="join_form">
+		<table>
+			<caption>(*)표시는 <strong>필수입력</strong> 사항입니다.</caption>
+			<tr>
+				<th><span>*</span>회원유형</th>
+				<td>학생</td>
+			</tr>
+			<tr>
+				<th><span>*</span>이름(실명)</th>
+				<td>홍길동</td>
+			</tr>
+			<tr>
+				<th><span>*</span>아이디</th>
+				<td>
+					<p><input type="text" size="20" maxlength="15"></p>
+					<p>6~15자리 영문소문자, 숫자만 가능합니다.</p>
+				</td>
+			</tr>
+			<tr>
+				<th><span>*</span>회원유형</th>
+				<td>
+					<p><input type="password" size="20"></p>
+					<p>
+						비밀번호는 <strong>영대문자, 영소문자, 숫자, 특수문자의 조합</strong>으로 이루어져야합니다. <br>
+						- 조합이 2종류 이상인 경우 10자리 이상.
+						- 조합이 3종류 이상인 경우 8자리 이상 가능합니다.
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<th><span>*</span>비밀번호 확인</th>
+				<td><input type="text" size="20"></td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					<p>
+						학교 홈페이지에 가입하시겠습니까? <span id="btn"><input type="submit" value="확인">
+						&nbsp; <input type="reset" value="취소"></span>
+					</p>
+				</td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>

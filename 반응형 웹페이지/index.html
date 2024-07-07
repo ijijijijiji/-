@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Index</title>
+<link rel="stylesheet" type="text/css" href="css/style.css?after">
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous" defer="defer"></script>
+<script src="js/j.js" defer="defer"></script> <!-- defer: 맨 마지막 로드하도록 하는 옵션. 관례 같은 것임 -->
+</head>
+<body>
+	<div id="page">
+		<header>
+			<div id="logo">
+				<img alt="로고" src="imgs/logo.png">
+			</div>
+			<div id="top">
+				<ul class="main-menu">
+					<li>
+						<a href="#">소개</a>
+						<ul class="sub">
+							<li><a href="#">인기 메뉴</a></li>
+							<li><a href="#">신 메뉴</a></li>
+							<li><a href="#">오시는 길</a></li>
+							<li><a href="#">쇼핑몰</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="#">카테고리</a>
+						<ul class="sub">
+							<li><a href="#">간편 요리</a></li>
+							<li><a href="#">베이커리/유제품</a></li>
+							<li><a href="#">음료</a></li>
+							<li><a href="#">고기</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="#">게시판</a>
+						<ul class="sub">
+							<li><a href="#">공지사항</a></li>
+							<li><a href="#">건의사항</a></li>
+							<li><a href="#">Q&A</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="#">Members</a>
+						<ul class="sub">
+							<li onclick="winOpen1()"><a href="#">로그인</a></li>
+							<li onclick="winOpen2()"><a href="#">회원가입</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</header>
+		<div class="clear"></div> <!-- float 속성 해제 -->
+		<section>
+			<div class="imgs">
+				<img alt="메인 이미지 1" src="imgs/main_img.png">
+				<img alt="메인 이미지 2" src="imgs/main_img(2).png">
+				<img alt="메인 이미지 3" src="imgs/main_img(3).png">
+				<img alt="메인 이미지 4" src="imgs/main_img(4).png">
+				<div class="welcome">
+					<h2><span>환영합니다!</span></h2>
+				</div>
+			</div>
+		</section>
+		<div class="clear"></div>
+		<div class="notice">
+			<h2>공지사항</h2>
+			<table class="table">
+				<tr>
+					<th>내용</th>
+					<th>날짜</th>	
+				</tr>
+				<tr>
+					<td><a href="#">홈페이지 오픈 기념 이벤트</a></td>
+					<td>2023-06-01</td>	
+				</tr>
+				<tr>
+					<td><a href="#">영수증 인증하면 선물이 와르르!</a></td>
+					<td>2023-08-01</td>	
+				</tr>
+				<tr>
+					<td><a href="#">이벤트 당첨자 발표</a></td>
+					<td>2023-08-15</td>	
+				</tr>
+				<tr>
+					<td><a href="#">콜라보 메뉴 출시!</a></td>
+					<td>2023-11-01</td>	
+				</tr>
+				<tr>
+					<td><a href="#">휴뮤 안내</a></td>
+					<td>2023-12-25</td>	
+				</tr>
+			</table>
+		</div>
+		<div class="clear"></div>
+	</div>
+</body>
+</html>
