@@ -12,7 +12,7 @@
 
  > 코드 
 
-![image](https://github.com/ijijijijiji/web/assets/129851513/c804bd16-f553-42bd-8ba8-655de79f4c44)  ![image](https://github.com/ijijijijiji/web/assets/129851513/b5dd6bd6-b326-429b-93e3-4a77fdc55f37)
+![image](https://github.com/ijijijijiji/web/assets/129851513/9b02da68-4427-41ce-9648-93a689dc99ea)  ![image](https://github.com/ijijijijiji/web/assets/129851513/1feb8963-1d7f-40ab-9bb2-c77d3c3e8c91)
 
 
 ## section
@@ -27,7 +27,5 @@
 
 > 코드
 
-![image](https://github.com/ijijijijiji/web/assets/129851513/0c31daf4-7c17-49c8-966b-fdc5fd13ae05)
-
-![image](https://github.com/ijijijijiji/web/assets/129851513/2492e2ed-f8ef-4c81-8146-f48d1eab8440)
+![image](https://github.com/ijijijijiji/web/assets/129851513/2d0d03c3-b671-4521-bf0c-a8c779717198)
 
