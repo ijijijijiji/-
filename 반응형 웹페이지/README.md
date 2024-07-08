@@ -3,6 +3,8 @@
 https://github.com/ijijijijiji/web/assets/129851513/34761f3b-27a9-4492-b445-b1466476d474
 
 ## header
+    header은 div#logo와 div#top로 이루어져 있다.
+
     메인 메뉴를 만들기 위해서 ul, li, a 태그를 사용하여 껍데기를 만들고,
 
     css를 통해 배경색, 텍스트 색, 높이, 넓이, 여백 등을 바꾸었다.
@@ -12,7 +14,7 @@ https://github.com/ijijijijiji/web/assets/129851513/34761f3b-27a9-4492-b445-b146
 ![image](https://github.com/ijijijijiji/web/assets/129851513/64639bbe-487c-4788-a56a-ce754d44c458)   ![image](https://github.com/ijijijijiji/web/assets/129851513/b3d9951f-3b6f-451b-a370-638c9ed24f42)
 
 ## section
-    section는 이미지 슬라이드 부분이고,
+    section는 이미지 슬라이드 부분이다.
 
     이미지가 슬라이더 부분을 넘는다면 이미지를 숨기도록 overflow: hidden을 적용했다.
 
@@ -46,6 +48,24 @@ https://github.com/ijijijijiji/web/assets/129851513/34761f3b-27a9-4492-b445-b146
 
 
 ![image](https://github.com/ijijijijiji/web/assets/129851513/1df6c145-6e67-4a05-bcc8-92804a7692e6)
+
+    start() 는 js의 기본 제공 함수이다.
+    
+    $(".imgs>img").eq(0)은 첫 번째 이미지를 선택하고 .siblings()은 첫 번째 이미지를 제외한 나머지 형제 요소들을 선택한다.
+
+    그러고 나서 .css({"margin-left":"-2000px"})는 선택된 형제 요소들의 margin-left 속성을 -2000px로 설정하여 화면 밖으로 보낸다.
+
+    2초 간격으로 slide 함수를 호출하여 슬라이드 쇼를 진행한다.
+
+    now가 imgs(이미지의 개수)와 같으면 0으로 초기화하고, 그렇지 않으면 now를 1 증가시킨다.
+    
+    이전 이미지를 화면 밖으로 이동시키고 현재 이미지를 화면 안으로 이동시킨다.
+
+> 코드
+
+
+![image](https://github.com/ijijijijiji/web/assets/129851513/9dce483c-b68d-40d5-afbb-131d3605029e)
+
 
 
 ## 소감 
