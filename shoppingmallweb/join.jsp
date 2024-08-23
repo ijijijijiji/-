@@ -5,7 +5,7 @@
 <%@ page import = "java.sql.*" %> <!-- 지시문형식을 통해 SQL 관련 라이브러리 불러오기 -->
 
 <%
-	String sql = "select max(custno) from member_tbl_02";// 퉈리문 형식의 문자열이 변수명 sql에 저장
+	String sql = "select max(custno) from member_tbl_02";// 쿼리문 형식의 문자열이 변수명 sql에 저장
 	
 	Connection conn = DBConnect.getConnection(); // DB연결 기능을 객체변수 conn에 저장 -> DB연결
 	PreparedStatement pstmt = conn.prepareStatement(sql); // sql변수에 저장되어 있는 문장이 쿼리문이 됨 -> DB연결 후 쿼리문 생성
