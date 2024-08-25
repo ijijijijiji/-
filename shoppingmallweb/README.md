@@ -24,6 +24,8 @@
 
 > 코드
 
+![image](https://github.com/user-attachments/assets/fff176fe-407a-4300-a4fa-d042fe66e305)
+
     데이터 유호성 검사를 위한 함수이다.
 
     document.date.custname.value를 사용해 custname가 비어있는지 확인한다.
@@ -33,6 +35,8 @@
     전부 다 입력된 경우, "회원등록이 완료 되었습니다."라는 메시지를 출력한다.
 
 > 코드
+
+![image](https://github.com/user-attachments/assets/9f961e7c-099b-4075-98f2-b25d23e72217)
 
 ## join_p.jsp
 
@@ -48,6 +52,7 @@
 
 > 코드
 
+![image](https://github.com/user-attachments/assets/e75c3426-6677-4dbc-a9a0-14d08e5b397a)
 
 ## DBConnect.java
 
@@ -60,3 +65,5 @@
     연결이 성공적으로 이루어지면 DB Connect 라는 메시지를 출력한다.
 
 > 코드
+
+![image](https://github.com/user-attachments/assets/59c6f156-0d07-4822-a238-71b8885544a6)
