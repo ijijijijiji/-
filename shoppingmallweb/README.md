@@ -56,8 +56,6 @@
 
 ## DBConnect.java
 
-    Connection 객체를 선언 후 url, id, pw 변수를 선언한다.
-
     Class.forName("oracle.jdbc.OracleDriver")를 통해 Oracle Driver 라이브러리를 불러오고,
 
     conn = DriverManager.getConnection(url, id, pw)는 지정된 URL로 설정한 id와 pw를 넣어서 연결시켜주고 그것을 연결 객체 conn에 넣어준다.
