@@ -1,4 +1,4 @@
-# shoppingmallweb
+# 쇼핑몰 회원관리 페이지
 
 > index.jsp 
 
