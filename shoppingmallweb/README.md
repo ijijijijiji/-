@@ -26,7 +26,7 @@
 
 ![image](https://github.com/user-attachments/assets/fff176fe-407a-4300-a4fa-d042fe66e305)
 
-    데이터 유호성 검사를 위한 함수이다.
+    데이터 유효성 검사를 위한 함수이다.
 
     document.date.custname.value를 사용해 custname가 비어있는지 확인한다.
 
