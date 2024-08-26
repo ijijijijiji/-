@@ -8,7 +8,7 @@
 
 ![image](https://github.com/user-attachments/assets/ad2ec725-411b-457f-9697-6379905f6968)
 
-## join.jsp
+## join
 
     지시문 형식을 통해 DB연결 자바파일과 SQL 관련 라이브러리를 불러온다.
 
@@ -38,7 +38,7 @@
 
 ![image](https://github.com/user-attachments/assets/9f961e7c-099b-4075-98f2-b25d23e72217)
 
-## join_p.jsp
+## join_p
 
     데이터 삽입을 위한 sql 쿼리문을 sql 변수에 저장한다. 이 쿼리문은 member_tbl_02 테이블에 7개의 데이터를 삽입하는 역할을 한다.
 
@@ -54,7 +54,7 @@
 
 ![image](https://github.com/user-attachments/assets/e75c3426-6677-4dbc-a9a0-14d08e5b397a)
 
-## DBConnect.java
+## DBConnect
 
     Class.forName("oracle.jdbc.OracleDriver")를 통해 Oracle Driver 라이브러리를 불러오고,
 
