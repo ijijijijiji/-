@@ -36,7 +36,8 @@
 
 > 코드
 
-![image](https://github.com/user-attachments/assets/9f961e7c-099b-4075-98f2-b25d23e72217)
+![image](https://github.com/user-attachments/assets/3bf4a1ec-162e-42d7-8bab-4c38728cf634)
+
 
 ## join_p.jsp
 
