@@ -2,9 +2,17 @@
 
 > index.jsp 
 
+    메인 페이지입니다.
+
 ![image](https://github.com/user-attachments/assets/6196516e-fadf-446b-b021-c0181a4a84e0)
 
 > join.jsp
+
+    회원등록 페이지입니다. 
+
+    사용자가 직접 회원정보를 입력하여 회원등록을 할 수 있습니다.
+    
+    이 때 회원번호는 데이터베이스를 연결하고 sql 쿼리를 사용하여 회원번호를 자동 발생시킵니다.
 
 ![image](https://github.com/user-attachments/assets/ad2ec725-411b-457f-9697-6379905f6968)
 
