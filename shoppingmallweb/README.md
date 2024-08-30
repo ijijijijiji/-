@@ -16,6 +16,16 @@
 
 ![image](https://github.com/user-attachments/assets/ad2ec725-411b-457f-9697-6379905f6968)
 
+> member_list.jsp
+
+    회원정보를 조회하거나 수정할 수 있는 페이지입니다.
+    
+![image](https://github.com/user-attachments/assets/b3b3cd3d-6fec-403c-8c4c-9ee386a4c8e0)
+
+> sales_list.jsp
+
+    회원 매출을 조회하고 매출 총합을 볼 수 있습니다.
+
 ## join.jsp
 
     지시문 형식을 통해 DB연결 자바파일과 SQL 관련 라이브러리를 불러온다.
@@ -74,3 +84,11 @@
 > 코드
 
 ![image](https://github.com/user-attachments/assets/59c6f156-0d07-4822-a238-71b8885544a6)
+
+## member_list.jsp
+
+    
+
+## sales_list.jsp
+
+    
