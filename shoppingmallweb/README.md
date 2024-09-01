@@ -26,6 +26,9 @@
 
     회원 매출을 조회하고 매출 총합을 볼 수 있습니다.
 
+![image](https://github.com/user-attachments/assets/f8eebb0a-caf1-41cd-af2e-1998c9436635)
+
+
 ## join.jsp
 
     지시문 형식을 통해 DB연결 자바파일과 SQL 관련 라이브러리를 불러온다.
