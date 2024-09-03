@@ -18,9 +18,19 @@
 
 > member_list.jsp
 
-    회원정보를 조회하거나 수정할 수 있는 페이지입니다.
+    회원 목록을 조회할 수 있습니다.
     
 ![image](https://github.com/user-attachments/assets/b3b3cd3d-6fec-403c-8c4c-9ee386a4c8e0)
+
+> member_search.jsp
+    
+    회원번호를 입력해 회원 정보를 조회할 수 있습니다.
+
+![image](https://github.com/user-attachments/assets/5944e38a-69b5-48a4-9c7f-a69a6c182de8)
+
+> member_search_list.jsp
+
+![image](https://github.com/user-attachments/assets/cda62eca-9cc0-4f4a-808c-4e338b1b6816)
 
 > sales_list.jsp
 
@@ -90,8 +100,23 @@
 
 ## member_list.jsp
 
+    member_tbl_02 테이블에서 custno, custname, phone, address, joindate, grade, city을 조회하는 쿼리문이다.
     
+    joindate는 'yyyy-mm-dd' 형식으로 조회하고, grade는 CASE 문을 사용하여 'A'는 'VIP', 'B'는 '일반', 그 외에는 '직원'으로 변환하여 조회한다.
+
+> 코드
+
+![image](https://github.com/user-attachments/assets/17dde4cc-c8b1-41d8-b6f1-afc961176fc5)
+
+    rs에는 다수의 결과가 들어있기에 그 갯수만큼 반복하여 화면에 출력한다.
+
+> 코드
+
+![image](https://github.com/user-attachments/assets/b56a8780-24e9-4a92-86ef-c39a6f6bf909)
+
+## member_search.jsp
+
+
 
 ## sales_list.jsp
 
-    
