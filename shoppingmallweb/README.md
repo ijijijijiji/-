@@ -100,15 +100,13 @@
 
 ![image](https://github.com/user-attachments/assets/b56a8780-24e9-4a92-86ef-c39a6f6bf909)
 
-## member_search.jsp
+## member_search.jsp, member_search_list.jsp
     
     회원번호를 입력해 회원 정보를 조회할 수 있는 페이지
 
 > 페이지 화면
 
 ![image](https://github.com/user-attachments/assets/5944e38a-69b5-48a4-9c7f-a69a6c182de8)
-
-## member_search_list.jsp
 
 > 입력한 회원번호의 회원 정보가 있을 때의 페이지 화면
 
