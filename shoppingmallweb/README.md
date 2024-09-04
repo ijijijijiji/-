@@ -64,7 +64,7 @@
 
 ![image](https://github.com/user-attachments/assets/e75c3426-6677-4dbc-a9a0-14d08e5b397a)
 
-## DBConnect.java (오라클 DB연결을 위한 것)
+## DBConnect.java (오라클 DB연결을 위한 JAVA 코드)
 
     Class.forName("oracle.jdbc.OracleDriver")를 통해 Oracle Driver 라이브러리를 불러오고,
 
