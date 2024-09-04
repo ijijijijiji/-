@@ -117,7 +117,7 @@
 
 ![image](https://github.com/user-attachments/assets/18bd3372-6156-4b39-91eb-292e2cd8f11d)
 
-    request.getParameter("search")를 통해 사용자가 입력한 것을 가져온다.
+    request.getParameter("search")를 통해 사용자가 member_search.jsp에서 입력한 회원번호를 가져온다.
 
     member_tbl_02 테이블에서 custno, custname, phone, address, joindate, grade, city을 조회하는 쿼리문이다.
 
@@ -128,6 +128,10 @@
 > 코드
 
 ![image](https://github.com/user-attachments/assets/98083d1f-4524-445b-87f9-deb70226d040)
+
+    if(rs.next()){ DB에 해당하는 회원이 있는 경우 테이블에서 해당 회원의 회원정보를 출력한다. member_list와 동일 형식이다.}
+    
+    else { 회원번호가 없는 경우 '<%= 변수명>의 회원정보는 없습니다.' 메시지를 출력한다. }
 
 ## sales_list.jsp
 
@@ -142,3 +146,11 @@
 > 코드
 
 ![image](https://github.com/user-attachments/assets/3a86d8ea-4545-4e89-80e0-b7e4eeee99d1)
+
+    i라는 변수를 선언하고 회원 매출 정보가 한줄씩 출력될 때마다 i에 price를 누적한다.
+
+    while문 밖에 tr과 td를 써서 총합을 출력한다.
+
+> 코드
+
+![image](https://github.com/user-attachments/assets/7af3606b-3022-47e8-8cbf-205304c14337)
