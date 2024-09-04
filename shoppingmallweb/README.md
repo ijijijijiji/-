@@ -108,11 +108,11 @@
 
 ## member_search_list.jsp
 
-> 원하는 회원 정보가 있을 때의 페이지 화면
+> 입력한 회원번호의 회원 정보가 있을 때의 페이지 화면
 
 ![image](https://github.com/user-attachments/assets/cda62eca-9cc0-4f4a-808c-4e338b1b6816)
 
-> 원하는 회원 정보가 없을 때의 페이지 화면
+> 입력한 회원번호의 회원 정보가 없을 때의 페이지 화면
 
 ![image](https://github.com/user-attachments/assets/18bd3372-6156-4b39-91eb-292e2cd8f11d)
 
