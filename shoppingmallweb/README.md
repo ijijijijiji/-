@@ -146,9 +146,9 @@
 
 ![image](https://github.com/user-attachments/assets/3a86d8ea-4545-4e89-80e0-b7e4eeee99d1)
 
-    i라는 변수를 선언하고 회원 매출 정보가 한줄씩 출력될 때마다 i에 price를 누적한다.
+    i라는 변수를 선언하고 회원 매출 정보가 한줄씩 출력될 때마다 i에 price를 누적하여 총합을 구한다.
 
-    while문 밖에 tr과 td를 사용하여 총합을 출력한다.
+    while문 밖에서 총합을 출력한다.
 
 > 코드
 
