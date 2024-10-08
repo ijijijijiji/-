@@ -2,15 +2,15 @@
 
 > 이 페이지는 회원등록을 하거나 회원목록을 조회, 수정할 수 있고 회원정보와 회원매출을 조회할 수 있다.
 
-### index.jsp
+## index.jsp
 
     메인 페이지
 
 > 페이지 화면 
 
-![image](https://github.com/user-attachments/assets/6196516e-fadf-446b-b021-c0181a4a84e0)
+![image](https://github.com/user-attachments/assets/ebc934e3-4dd5-494e-aadf-7b26cb5f7917)
 
-### join.jsp
+## join.jsp
 
     회원등록 페이지
 
@@ -112,16 +112,12 @@
 
 https://github.com/user-attachments/assets/e94edd6b-34a7-4eca-8756-31c585627754
 
-<details>
-<summary>update.jsp</summary>
 
     member_list.jsp에서 전달받은 매개변수를 조건으로 회원의 정보를 불러온다.
 
 > 코드
 
 ![image](https://github.com/user-attachments/assets/17d7a073-7203-4e1b-bff8-64218da1ff71)
-
-</details>
 
 
 ## 회원정보 삭제
@@ -130,7 +126,12 @@ https://github.com/user-attachments/assets/e94edd6b-34a7-4eca-8756-31c585627754
 
 https://github.com/user-attachments/assets/ceb633bb-ce82-474c-8577-8143163950fb
 
-   
+
+    confirm은 예/아니오를 선택하는 창을 띄워준다. 예를 선택할 시 true, 아니오를 선택할 시 false를 반환한다.
+
+    update.jsp에 있는 함수로 삭제 버튼을 눌렀을 때 확인 메세지를 띄우고 결과에 따라 삭제하거나 삭제하지않는 함수이다.
+
+    매개변수를 활용하여 회원번호를 전달했다.
 
 > 코드
 
