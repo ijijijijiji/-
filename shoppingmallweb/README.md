@@ -127,9 +127,9 @@ https://github.com/user-attachments/assets/e94edd6b-34a7-4eca-8756-31c585627754
 https://github.com/user-attachments/assets/ceb633bb-ce82-474c-8577-8143163950fb
 
 
-    confirm은 예/아니오를 선택하는 창을 띄워준다. 예를 선택할 시 true, 아니오를 선택할 시 false를 반환한다.
-
     update.jsp에 있는 함수로 삭제 버튼을 눌렀을 때 확인 메세지를 띄우고 결과에 따라 삭제하거나 삭제하지않는 함수이다.
+
+    confirm은 예/아니오를 선택하는 창을 띄워준다. 예를 선택할 시 true, 아니오를 선택할 시 false를 반환한다.
 
     매개변수를 활용하여 회원번호를 전달했다.
 
@@ -137,7 +137,7 @@ https://github.com/user-attachments/assets/ceb633bb-ce82-474c-8577-8143163950fb
 
 ![image](https://github.com/user-attachments/assets/f91c22ef-8dfe-4941-8d0b-9cd6ff9ccca9)
 
-
+    
 ## member_search.jsp, member_search_list.jsp
     
     회원번호를 입력해 회원 정보를 조회할 수 있는 페이지
