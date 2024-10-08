@@ -2,7 +2,7 @@
 
 > 이 페이지는 회원등록을 하거나 회원목록을 조회, 수정할 수 있고 회원정보와 회원매출을 조회할 수 있다.
 
-## index.jsp
+### index.jsp
 
     메인 페이지
 
@@ -10,7 +10,7 @@
 
 ![image](https://github.com/user-attachments/assets/6196516e-fadf-446b-b021-c0181a4a84e0)
 
-## join.jsp
+### join.jsp
 
     회원등록 페이지
 
@@ -20,7 +20,12 @@
 
 ![image](https://github.com/user-attachments/assets/ad2ec725-411b-457f-9697-6379905f6968)
 
-    지시문 형식을 통해 DB연결 자바파일과 SQL 관련 라이브러리를 불러온다.
+<details>
+<summary>join.jsp</summary>
+
+## join.jsp
+
+  지시문 형식을 통해 DB연결 자바파일과 SQL 관련 라이브러리를 불러온다.
 
 > 코드
 
@@ -48,6 +53,11 @@
 
 ![image](https://github.com/user-attachments/assets/3bf4a1ec-162e-42d7-8bab-4c38728cf634)
 
+</details>
+
+<details>
+<summary>join_p.jsp</summary>
+    
 ## join_p.jsp
 
     데이터 삽입을 위한 sql 쿼리문을 sql 변수에 저장한다. 이 쿼리문은 member_tbl_02 테이블에 7개의 데이터를 삽입하는 역할을 한다.
@@ -64,17 +74,8 @@
 
 ![image](https://github.com/user-attachments/assets/e75c3426-6677-4dbc-a9a0-14d08e5b397a)
 
-## DBConnect.java (오라클 DB연결을 위한 JAVA 코드)
+</details>
 
-    Class.forName("oracle.jdbc.OracleDriver")를 통해 Oracle Driver 라이브러리를 불러오고,
-
-    conn = DriverManager.getConnection(url, id, pw)는 지정된 URL로 설정한 id와 pw를 넣어서 연결시켜주고 그것을 연결 객체 conn에 넣어준다.
-
-    연결이 성공적으로 이루어지면 DB Connect 라는 메시지를 출력한다.
-
-> 코드
-
-![image](https://github.com/user-attachments/assets/59c6f156-0d07-4822-a238-71b8885544a6)
 
 ## member_list.jsp
 
@@ -82,7 +83,12 @@
 
 > 페이지 화면
 
-![image](https://github.com/user-attachments/assets/b3b3cd3d-6fec-403c-8c4c-9ee386a4c8e0)
+![image](https://github.com/user-attachments/assets/f4d90bd7-3d77-4d81-b63f-027cd582b432)
+
+<details>
+<summary>member_list.jsp</summary>
+    
+## member_list.jsp
 
     member_tbl_02 테이블에서 custno, custname, phone, address, joindate, grade, city을 조회하는 쿼리문이다.
     
@@ -97,6 +103,39 @@
 > 코드
 
 ![image](https://github.com/user-attachments/assets/b56a8780-24e9-4a92-86ef-c39a6f6bf909)
+
+</details>
+
+## 회원정보 수정
+
+> 페이지 화면
+
+https://github.com/user-attachments/assets/e94edd6b-34a7-4eca-8756-31c585627754
+
+<details>
+<summary>update.jsp</summary>
+
+    member_list.jsp에서 전달받은 매개변수를 조건으로 회원의 정보를 불러온다.
+
+> 코드
+
+![image](https://github.com/user-attachments/assets/17d7a073-7203-4e1b-bff8-64218da1ff71)
+
+</details>
+
+
+## 회원정보 삭제
+
+> 페이지 화면
+
+https://github.com/user-attachments/assets/ceb633bb-ce82-474c-8577-8143163950fb
+
+   
+
+> 코드
+
+![image](https://github.com/user-attachments/assets/f91c22ef-8dfe-4941-8d0b-9cd6ff9ccca9)
+
 
 ## member_search.jsp, member_search_list.jsp
     
@@ -114,6 +153,11 @@
 
 ![image](https://github.com/user-attachments/assets/18bd3372-6156-4b39-91eb-292e2cd8f11d)
 
+<details>
+<summary>member_search.jsp, member_search_list.jsp</summary>
+
+## member_search.jsp, member_search_list.jsp
+    
     request.getParameter("search")를 통해 사용자가 member_search.jsp에서 입력한 회원번호를 가져온다.
 
     member_tbl_02 테이블에서 custno, custname, phone, address, joindate, grade, city을 조회하는 쿼리문이다.
@@ -130,6 +174,9 @@
     
     else { 회원번호가 없는 경우 '<%= 변수명>의 회원정보는 없습니다.' 메시지를 출력한다. }
 
+</details>
+
+
 ## sales_list.jsp
 
     회원 매출을 조회하고 매출 총합을 볼 수 있는 페이지
@@ -137,6 +184,11 @@
 > 페이지 화면
 
 ![image](https://github.com/user-attachments/assets/f8eebb0a-caf1-41cd-af2e-1998c9436635)
+
+<details>
+<summary>sales_list.jsp</summary>
+
+## sales_list.jsp
 
     내부조인과 group by를 이용하여 회원별 매출을 조회하는 쿼리문이다.
 
@@ -151,3 +203,23 @@
 > 코드
 
 ![image](https://github.com/user-attachments/assets/7af3606b-3022-47e8-8cbf-205304c14337)
+
+</details>
+
+## DBConnect.java
+
+<details>
+<summary>DBConnect.java (오라클 DB연결을 위한 JAVA 코드)</summary>
+
+
+    Class.forName("oracle.jdbc.OracleDriver")를 통해 Oracle Driver 라이브러리를 불러오고,
+
+    conn = DriverManager.getConnection(url, id, pw)는 지정된 URL로 설정한 id와 pw를 넣어서 연결시켜주고 그것을 연결 객체 conn에 넣어준다.
+
+    연결이 성공적으로 이루어지면 DB Connect 라는 메시지를 출력한다.
+
+> 코드
+
+![image](https://github.com/user-attachments/assets/59c6f156-0d07-4822-a238-71b8885544a6)
+
+</details>
