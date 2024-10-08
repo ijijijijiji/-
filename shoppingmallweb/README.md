@@ -207,10 +207,10 @@ https://github.com/user-attachments/assets/ceb633bb-ce82-474c-8577-8143163950fb
 
 </details>
 
-## DBConnect.java
+## DBConnect.java (오라클 DB연결을 위한 JAVA 코드)
 
 <details>
-<summary>DBConnect.java (오라클 DB연결을 위한 JAVA 코드)</summary>
+<summary>DBConnect.java</summary>
 
 
     Class.forName("oracle.jdbc.OracleDriver")를 통해 Oracle Driver 라이브러리를 불러오고,
