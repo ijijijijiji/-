@@ -53,7 +53,7 @@
 <details>
 <summary>member_list</summary>
 
-## member_list
+### member_list
 
 > case문을 사용해 `1`은 `고졸`, `2`는 `학사`, `3`은 `석사`, `4`는 `박사`로 변환하여 출력하게 하고
 >
@@ -70,7 +70,7 @@
 <details>
 <summary>vote_check_list</summary>
 
-## vote_check_list
+### vote_check_list
 
 > v_jumin를 19YY년 MM월 DD일 형식으로 바꿔주기 위해 substr()과 연결연산자 || 를 사용해 출력해주고
 >
@@ -93,7 +93,7 @@
 <details>
 <summary>member_rank</summary>
 
-## member_rank
+### member_rank
 
 > tbl_vote_202005 테이블과 tbl_member_202005 테이블을 조인하여 사용하였다.
 >
