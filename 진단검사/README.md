@@ -54,12 +54,6 @@
 
 ![image](https://github.com/user-attachments/assets/38844227-1a41-4a83-837c-4349d2b3f5dd)
 
-> 테이블에 데이터를 삽입하기 위한 SQL문이다.
-
-
-
-
-
 </details>
 
 ## 검사결과조회
