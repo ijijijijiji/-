@@ -13,8 +13,6 @@
 <details>
 <summary>patient_list</summary>
 
-## patient_list
-
 > p_birth 값을 substr()를 사용해 각각 년,월,일로 잘라서 출력해주고 연결 연산자 ||을 이용하여 붙여준다.
 >
 > p_gender는 case문을 사용해 M은 남, F은 여로 출력해준다.
@@ -35,8 +33,6 @@
 <details>
 <summary>result</summary>
 
-### result
-
 > 유효성 체크 함수이다.
 >
 > p_no이라는 이름을 가진 것의 값이 비어있다면 alert 경고창을 띄우고 입력 커서를 해당 박스로 이동하게 하고 false를 반환한다.
@@ -54,12 +50,44 @@
 <details>
 <summary>result_p</summary>
 
-### result_p
+> 오라클에 한글을 입력했을 때 깨지지 않게 만들어준다.
+
+![image](https://github.com/user-attachments/assets/38844227-1a41-4a83-837c-4349d2b3f5dd)
+
+> 테이블에 데이터를 삽입하기 위한 SQL문이다.
+
+
+
 
 
 </details>
 
 ## 검사결과조회
 
+<details>
+<summary>result_search</summary>
+
+> t_sdate, t_ldate는 to_char를 사용해 'yyyy-mm-dd' 형식으로 출력해준다.
+> 
+> t_status는 case문을 통해 1은 검사중 2은 검사완료로 출력해준다.
+>
+> order by를 사용해 p_no 오름차순으로 정렬한다.
+
+
+
+
+
+</details>
 
 ## 지역별검사건수
+
+<details>
+<summary>count</summary>
+
+> case문을 사용해 p_city에서 10은 서울, 20은 경기, 30은 강원. 40은 대구로 출력해준다.
+>
+> count 함수를 사용해서 p_city의 수를 세어 지역별 검사건수를 세어준다.
+>
+>  p_city를 기준으로 오름차순으로 정렬해준다.
+
+</details>
