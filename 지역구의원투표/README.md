@@ -12,8 +12,6 @@
 <details>
 <summary>vote.jsp</summary>
   
-### vote.jsp
-
 > 유효성 체크 함수이다.
 >
 > 쇼핑몰 웹페이지에서 사용했던 유효성 체크 함수와 동일한 구조를 가지고 있다.
@@ -29,14 +27,11 @@
 <details>
 <summary>vote_p.jsp</summary>
 
-### vote_p.jsp
-
 > 오라클에 한글을 입력했을 때 깨지지 않게 만들어준다.
 
 ![image](https://github.com/user-attachments/assets/38844227-1a41-4a83-837c-4349d2b3f5dd)
 
 > tbl_vote_202005 테이블에 데이터를 삽입하기 위한 SQL문이다.
-
 
 ![image](https://github.com/user-attachments/assets/34e89f4f-b221-4193-84a2-a8dee69ca14f)
 
@@ -53,8 +48,6 @@
 <details>
 <summary>member_list</summary>
 
-### member_list
-
 > case문을 사용해 `1`은 `고졸`, `2`는 `학사`, `3`은 `석사`, `4`는 `박사`로 변환하여 출력하게 하고
 >
 > `0000000000000` 형태의 주민번호는 `000000-0000000` 형태로 변환하기 위해서 substr()과 연결연산자 || 를 사용하였다.
@@ -69,8 +62,6 @@
 
 <details>
 <summary>vote_check_list</summary>
-
-### vote_check_list
 
 > v_jumin를 19YY년 MM월 DD일 형식으로 바꿔주기 위해 substr()과 연결연산자 || 를 사용해 출력해주고
 >
@@ -92,8 +83,6 @@
 
 <details>
 <summary>member_rank</summary>
-
-### member_rank
 
 > tbl_vote_202005 테이블과 tbl_member_202005 테이블을 조인하여 사용하였다.
 >
