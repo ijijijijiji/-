@@ -68,7 +68,7 @@
 ![image](https://github.com/user-attachments/assets/356c7d40-0bb5-4fa1-a580-2d40bc79b436)
 
 <details>
-<summary>check_list</summary>
+<summary>vote_check_list</summary>
 
 ## vote_check_list
 
