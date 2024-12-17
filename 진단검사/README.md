@@ -64,6 +64,8 @@
 
 ## 검사결과조회
 
+![image](https://github.com/user-attachments/assets/57b2da47-9fa3-4ee1-93e8-da40889b28fe)
+
 <details>
 <summary>result_search</summary>
 
@@ -73,13 +75,13 @@
 >
 > order by를 사용해 p_no 오름차순으로 정렬한다.
 
-
-
-
+![image](https://github.com/user-attachments/assets/4b564c19-9b81-4862-8a35-f12c01d271b7)
 
 </details>
 
 ## 지역별검사건수
+
+![image](https://github.com/user-attachments/assets/27939147-53b8-4504-b892-72e819195a99)
 
 <details>
 <summary>count</summary>
@@ -89,5 +91,7 @@
 > count 함수를 사용해서 p_city의 수를 세어 지역별 검사건수를 세어준다.
 >
 >  p_city를 기준으로 오름차순으로 정렬해준다.
+
+![image](https://github.com/user-attachments/assets/0d97a7c2-b7c5-4e45-81a7-5cf6a30fba4c)
 
 </details>
